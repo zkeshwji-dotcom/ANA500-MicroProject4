@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+tensorflow>=2.16
+jupyter
+python-pptx
+python-docx
