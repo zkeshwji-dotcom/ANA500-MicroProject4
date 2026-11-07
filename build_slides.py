@@ -129,7 +129,8 @@ runs[0].text = "Forecasting Electricity Demand"
 runs[0].font.size = Pt(44); runs[0].font.bold = True
 runs[1].text = "Micro-Project 4"
 runs[1].font.size = Pt(28)
-runs[2].text = "Repository: <add your GitHub repository link>"
+runs[2].text = "Repository: github.com/zkeshwji-dotcom/ANA500-MicroProject4"
+runs[2].hyperlink.address = "https://github.com/zkeshwji-dotcom/ANA500-MicroProject4"
 runs[2].font.size = Pt(20); runs[2].font.color.rgb = MUTED
 for br in tf.paragraphs[0]._p.findall("{http://schemas.openxmlformats.org/drawingml/2006/main}br"):
     rpr = br.find("{http://schemas.openxmlformats.org/drawingml/2006/main}rPr")
